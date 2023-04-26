@@ -1,0 +1,31 @@
+.home {
+  width: 100%;
+  height: 100%;
+}
+
+.home > * {
+  position: absolute;
+  z-index: 10;
+}
+
+.profile-image{
+  right: 0;
+  height: 80%;
+  z-index: 4;
+}
+
+.home-presentation {
+  z-index: 6;
+  top: 20%;
+  left: 10%;
+}
+
+.home-mask {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.204);
+  z-index: 1;
+}
+
